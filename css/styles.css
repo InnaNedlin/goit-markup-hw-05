@@ -665,13 +665,14 @@ body {
   box-sizing: border-box;
   border-radius: 50%;
   padding: 9 10;
-}
-
-.krestik {
-  color: #000000;
-  /* fill: aqua; */
   align-items: center;
 }
+
+/* .vektor { */
+/* color: #000000; */
+/* fill: aqua; */
+/* align-items: center; */
+/* } */
 
 .message {
   font-size: 25px;

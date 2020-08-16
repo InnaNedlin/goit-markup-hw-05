@@ -14,19 +14,8 @@ html {
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --dark-color: #000000;
-  --timinng-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* --timinng-function: cubic-bezier(0.4, 0, 0.2, 1); */
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.nav-link:hover,
-.nav-link:focus,
-.contact-link:focus,
-.contact-link:hover,
-.social-link:hover,
-.social-link:focus,
-.social-link-footer:hover,
-.social-link-footer:focus {
-  color: #2196f3;
 }
 
 h1,
@@ -124,6 +113,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
+  /* transition: color 250ms var(--timinng-function); */
+  transition: color var(--transition);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #2196f3;
 }
 
 .inline-flex {
@@ -166,12 +162,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   text-decoration: none;
+  transition: color var(--transition);
 }
 
 .contact-link:focus,
 .contact-link:hover {
   color: #2196f3;
-  fill: #2196f3;
+  /* fill: #2196f3; */
 }
 
 .icon-smartphone {
@@ -463,6 +460,7 @@ a {
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  transition: background-color var(--transition);
 }
 
 .social-icon-footer {
