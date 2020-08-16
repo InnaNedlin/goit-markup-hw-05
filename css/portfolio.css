@@ -112,7 +112,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
   text-decoration: none;
-  /* transition: color 250ms var(--timinng-function); */
   transition: color var(--transition);
 }
 
@@ -167,7 +166,6 @@ body {
 .contact-link:focus,
 .contact-link:hover {
   color: #2196f3;
-  /* fill: #2196f3; */
 }
 
 .icon-smartphone {
