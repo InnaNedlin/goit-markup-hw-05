@@ -452,6 +452,7 @@ body {
   width: 44px;
   height: 44px;
   background-color: var(--white-color);
+  border-radius: 50%;
   color: #afb1b8;
   transition: color var(--transition), background-color var(--transition),
     border-radius var(--transition);
