@@ -694,6 +694,11 @@ body {
   align-items: center;
 }
 
+.icon-vector {
+  width: 11px;
+  height: 11px;
+}
+
 .message {
   font-size: 25px;
   font-weight: 700;
