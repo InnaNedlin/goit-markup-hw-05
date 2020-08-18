@@ -49,8 +49,6 @@ body {
 
 .page-header {
   /* display: flex; */
-  padding-top: 25px;
-  padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 
@@ -105,7 +103,7 @@ body {
   position: relative;
 }
 
-.menu-nav .current::after {
+.menu-nav .nav-link.current::after {
   position: absolute;
   content: "";
   bottom: 0;
@@ -121,6 +119,8 @@ body {
 }
 .nav-link {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -141,6 +141,11 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.nav-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .contact-us {
